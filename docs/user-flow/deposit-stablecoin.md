@@ -22,7 +22,7 @@ When you deposit USDC into SuperCluster:
 
 - Connect your wallet to the SuperCluster dApp
 - Ensure you have USDC on Lisk Network
-- Check you have sufficient MNT for gas fees
+- Check you have sufficient ETH for gas fees
 
 ### Step 2: Approve USDC
 
