@@ -18,29 +18,28 @@ One of SuperCluster's most powerful features is the **composability** of sUSDC a
 
 ## Token Compatibility Matrix
 
-| DeFi Category         | sUSDC Compatible? | wsUSDC Compatible? | Recommended |
-| --------------------- | ----------------- | ------------------ | ----------- |
-| **DEX Trading**       | Limited           | Full               | wsUSDC      |
-| **Liquidity Pools**   | May have issues   | Full               | wsUSDC      |
-| **Lending Platforms** | Not supported     | Full               | wsUSDC      |
-| **Yield Aggregators** | Complex           | Full               | wsUSDC      |
-| **Stablecoin Swaps**  | OK                | OK                 | Either      |
-| **Simple Holding**    | Perfect           | OK                 | sUSDC       |
-| **NFT Purchases**     | OK                | OK                 | Either      |
+| DeFi Category        | sUSDC Compatible? | wsUSDC Compatible? | Recommended |
+| -------------------- | ----------------- | ------------------ | ----------- |
+| **Morpho Lending**   | Not supported     | Full               | wsUSDC      |
+| **Nusa Pools**       | May have issues   | Full               | wsUSDC      |
+| **Beefy Vaults**     | Complex           | Full               | wsUSDC      |
+| **Stablecoin Swaps** | OK                | OK                 | Either      |
+| **Simple Holding**   | Perfect           | OK                 | sUSDC       |
+| **NFT Purchases**    | OK                | OK                 | Either      |
 
 **General Rule:** Use **wsUSDC** for maximum DeFi compatibility.
 
-## Use Case 1: Collateral for Borrowing
+## Use Case 1: Collateral for Borrowing (Morpho)
 
 ### Overview
 
-Use wsUSDC as collateral to borrow other assets without selling your position.
+Use wsUSDC as collateral on Morpho to borrow other assets without selling your position.
 
 ### How It Works
 
 ```
 1. You have: 10,000 wsUSDC (worth 10,500 USDC at 1.05 rate)
-2. Deposit wsUSDC to Aave as collateral
+2. Deposit wsUSDC to Morpho as collateral
 3. Borrow: 6,000 USDC (60% LTV)
 4. Your wsUSDC continues earning SuperCluster yield
 5. As wsUSDC value increases, health factor improves
@@ -63,7 +62,7 @@ Wrap 10,000 sUSDC → Get 9,524 wsUSDC
 Value: 9,524 × 1.05 = 10,000 USDC
 ```
 
-**Step 2: Deposit to Aave**
+**Step 2: Deposit to Morpho**
 
 ```
 Deposit: 9,524 wsUSDC
@@ -103,11 +102,11 @@ Health Factor: Improved!
 - **Interest on borrowed amount**
 - **Smart contract risk** from both protocols
 
-## Use Case 2: Liquidity Provision
+## Use Case 2: Liquidity Provision (Nusa)
 
 ### Overview
 
-Provide liquidity in DEX pools to earn trading fees while maintaining SuperCluster yield.
+Provide liquidity in Nusa pools to earn trading fees while maintaining SuperCluster yield.
 
 ### Strategy: wsUSDC/USDC Pool
 
@@ -115,7 +114,7 @@ Provide liquidity in DEX pools to earn trading fees while maintaining SuperClust
 
 ```
 ┌───────────────────────┐
-│  Uniswap V3 Pool      │
+│   Nusa Pool           │
 │                       │
 │  50% wsUSDC (5,000)   │
 │  50% USDC (5,000)     │
@@ -156,20 +155,20 @@ Total value: ~10,750 USDC
 Total APY: ~7.5%
 ```
 
-## Use Case 3: Yield Aggregator Strategies
+## Use Case 3: Yield Aggregator Strategies (Beefy)
 
 ### Overview
 
-Deposit wsUSDC into yield aggregators to stack multiple yield sources.
+Deposit wsUSDC into Beefy vaults to stack multiple yield sources.
 
-### Example: Yearn Finance Strategy
+### Example: Beefy Vault Strategy
 
 ```
-1. Deposit wsUSDC to Yearn Vault
-2. Yearn deploys wsUSDC to optimized strategies
+1. Deposit wsUSDC to Beefy Vault
+2. Beefy deploys wsUSDC to optimized strategies
 3. You earn:
    - SuperCluster base yield (5%)
-   - Yearn strategy returns (3-5%)
+   - Beefy strategy returns (3-5%)
    - Compounded automatically
 
 Total APY: 8-10%
@@ -181,8 +180,8 @@ Total APY: 8-10%
 
 ```
 Base: SuperCluster yield (5%)
- + Yearn optimization (2%)
- + Curve boost (1%)
+ + Beefy optimization (2%)
+ + Morpho integration (1%)
 ------------------------
 Total: ~8% APY
 ```
@@ -191,8 +190,8 @@ Total: ~8% APY
 
 ```
 Base: SuperCluster yield (5%)
- + Leverage strategy (5%)
- + Incentive farming (3%)
+ + Beefy leverage (5%)
+ + Nusa farming (3%)
 ------------------------
 Total: ~13% APY (higher risk)
 ```
@@ -278,37 +277,37 @@ Use wsUSDC on each chain independently
 - Optimize gas costs
 - Diversify smart contract risk
 
-## Use Case 6: Collateral for Derivatives
+## Use Case 6: Advanced Strategies with Morpho
 
 ### Overview
 
-Use wsUSDC as margin for perpetual futures or options.
+Use wsUSDC for advanced lending strategies on Morpho.
 
-### Perpetual Futures Example
+### Morpho Advanced Lending
 
 ```
-Platform: GMX (if available on Lisk)
+Platform: Morpho Protocol
 
-Deposit: 10,000 wsUSDC as margin
-Leverage: 5x
-Position: Long ETH
+Deposit: 10,000 wsUSDC
+Strategy: Supply to optimized market
+Earnings:
 
 Benefits:
 - wsUSDC continues earning SuperCluster yield
-- Margin value increases over time (self-improving)
-- Access leveraged positions
+- Morpho Blue optimization for better rates
+- Access to efficient lending markets
 ```
 
-### Options Strategy
+### Multi-Protocol Stacking
 
 ```
-Sell Put Options:
-- Collateral: wsUSDC
-- Collect premium
-- If exercised: Acquire asset at strike
-- wsUSDC earns yield while waiting
+Advanced Strategy:
+- Deposit wsUSDC to Morpho
+- Borrow USDC
+- LP on Nusa with USDC portion
+- Earn multiple yields simultaneously
 
-Strategy: Generate income from both premium and yield
+Strategy: Generate income from base yield, lending, and LP fees
 ```
 
 ## Use Case 7: DAO Treasury Management
@@ -345,25 +344,25 @@ Risk: Inflation erodes value
 
 ```
 DAO Treasury Allocation:
-├─ 40% SuperCluster (base yield + liquidity)
-├─ 30% wsUSDC in lending (additional yield)
-├─ 20% wsUSDC/USDC LP (trading fees)
+├─ 40% SuperCluster + Morpho lending
+├─ 30% wsUSDC/USDC on Nusa LP
+├─ 20% Beefy vault strategies
 └─ 10% Reserve (immediate liquidity)
 
-Expected combined APY: 7-9%
-Annual revenue on 10M: 700-900K USDC
+Expected combined APY: 8-10%
+Annual revenue on 10M: 800-1000K USDC
 ```
 
 ## Comparison: DeFi Usage vs Simple Holding
 
-| Scenario            | Base APY | Additional Yield  | Total APY | Risk Level |
-| ------------------- | -------- | ----------------- | --------- | ---------- |
-| **Hold sUSDC**      | 5%       | 0%                | 5%        | Low        |
-| **Hold wsUSDC**     | 5%       | 0%                | 5%        | Low        |
-| **Aave Collateral** | 5%       | -2% (borrow cost) | 3%        | Medium     |
-| **Uniswap LP**      | 5%       | 2-4% (fees)       | 7-9%      | Medium     |
-| **Yearn Vault**     | 5%       | 2-3%              | 7-8%      | Medium     |
-| **Leveraged**       | 5%       | 3-5%              | 8-10%     | High       |
-| **Recursive**       | 5%       | 5-7%              | 10-12%    | Very High  |
+| Scenario           | Base APY | Additional Yield | Total APY | Risk Level |
+| ------------------ | -------- | ---------------- | --------- | ---------- |
+| **Hold sUSDC**     | 5%       | 0%               | 5%        | Low        |
+| **Hold wsUSDC**    | 5%       | 0%               | 5%        | Low        |
+| **Morpho Lending** | 5%       | 1-2%             | 6-7%      | Medium     |
+| **Nusa LP**        | 5%       | 2-4% (fees)      | 7-9%      | Medium     |
+| **Beefy Vault**    | 5%       | 2-3%             | 7-8%      | Medium     |
+| **Multi-Protocol** | 5%       | 3-5%             | 8-10%     | High       |
+| **Advanced Stack** | 5%       | 5-7%             | 10-12%    | Very High  |
 
 **Unlock DeFi's full potential!** Use your SuperCluster tokens to build advanced yield strategies while maintaining liquidity.

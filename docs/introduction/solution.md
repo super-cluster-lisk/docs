@@ -40,12 +40,11 @@ As a result, users earn yield without needing to manage market cycles or price m
 
 **Initial Yield Sources:**
 
-| Protocol  | Category              | Risk Profile |
-|----------|-----------------------|--------------|
-| Aave     | Established lending   | Low          |
-| Morpho   | Optimized lending     | Low–Medium   |
-| Centauri | Cross-chain lending   | Medium       |
-| Tumbuh   | Emerging markets      | Medium       |
+| Protocol | Category           | Risk Profile |
+| -------- | ------------------ | ------------ |
+| Morpho   | Optimized lending  | Low–Medium   |
+| Nusa     | Stablecoin lending | Low–Medium   |
+| Beefy    | Yield optimization | Medium       |
 
 Allocation decisions are handled by the **Pilot Strategy**, which balances yield, liquidity, and risk.
 
@@ -90,7 +89,7 @@ User
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Allocation logic  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ Risk controls  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ Yield Adapters  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ External Lending Protocols  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ External Lending Protocols
 
 This separation ensures modularity, upgradeability, and risk isolation.
 
@@ -139,12 +138,12 @@ The Pilot Strategy functions as a portfolio manager:
 
 **Example Allocation Factors:**
 
-| Factor          | Purpose                     |
-|-----------------|-----------------------------|
-| Yield           | Return optimization         |
-| Liquidity       | Withdrawal readiness        |
-| Risk            | Exposure control            |
-| Diversification | Systemic risk reduction     |
+| Factor          | Purpose                 |
+| --------------- | ----------------------- |
+| Yield           | Return optimization     |
+| Liquidity       | Withdrawal readiness    |
+| Risk            | Exposure control        |
+| Diversification | Systemic risk reduction |
 
 ### Rebase & Accounting Model
 
@@ -159,14 +158,14 @@ The Pilot Strategy functions as a portfolio manager:
 
 ## Comparison
 
-| Feature               | Vaults | Liquid Staking | SuperCluster |
-|-----------------------|--------|----------------|--------------|
-| Stable Principal      | Yes    | No             | Yes          |
-| Yield                | Yes    | Yes            | Yes          |
-| Liquidity             | No     | Partial        | Yes          |
-| Composability         | Limited| High           | High         |
-| Market Risk           | None   | High           | None         |
-| Works in Bear Markets | Yes    | No             | Yes          |
+| Feature               | Vaults  | Liquid Staking | SuperCluster |
+| --------------------- | ------- | -------------- | ------------ |
+| Stable Principal      | Yes     | No             | Yes          |
+| Yield                 | Yes     | Yes            | Yes          |
+| Liquidity             | No      | Partial        | Yes          |
+| Composability         | Limited | High           | High         |
+| Market Risk           | None    | High           | None         |
+| Works in Bear Markets | Yes     | No             | Yes          |
 
 ## Use Cases
 

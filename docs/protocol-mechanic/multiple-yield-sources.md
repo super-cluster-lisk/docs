@@ -22,10 +22,11 @@ SuperCluster applies this same principle to DeFi lending.
 Your USDC earns interest from established lending platforms where borrowers pay to use stablecoins:
 
 **Morpho** — Efficient lending protocol with strong yields (typically 4-6% APY)  
-**Aave** — Largest DeFi lending platform with maximum security (typically 3-5% APY)
+**Nusa** — DeFi platform offering competitive staking returns (typically 5-7% APY)  
+**Beefy** — Yield optimization protocol maximizing farming efficiency (typically 6-8% APY)
 
 ```
-Your Deposit → SuperCluster → Split between Morpho & Aave → Borrowers pay interest → You earn yield
+Your Deposit → SuperCluster → Split between Morpho, Nusa & Beefy → Borrowers pay interest → You earn yield
 ```
 
 **What you do:** Deposit once  
@@ -36,8 +37,7 @@ Your Deposit → SuperCluster → Split between Morpho & Aave → Borrowers pay 
 ### Better Returns
 
 Platforms offer different rates at different times. SuperCluster allocates more to higher-yielding platforms automatically.
-
-**Example:** If Aave offers 5% and Morpho offers 6%, more funds go to Morpho. When rates change, the system rebalances to maintain optimal returns.
+**Example:** If Morpho offers 5%, Nusa offers 6%, and Beefy offers 5.5%, more funds go to Nusa. When rates change across all three platforms, the system rebalances automatically to maintain optimal returns.
 
 ### Lower Risk
 

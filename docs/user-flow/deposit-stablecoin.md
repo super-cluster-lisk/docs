@@ -62,14 +62,16 @@ flowchart TD
     B["SuperCluster Contract"]
     C["Mint sUSDC"]
     D["Pilot Strategy"]
-    E["Aave (60%)"]
-    F["Morpho (40%)"]
+    E["Morpho (45%)"]
+    F["Nusa (35%)"]
+    G["Beefy (20%)"]
 
     A --> B
     B --> C
     B --> D
     D --> E
     D --> F
+    D --> G
 ```
 
 ## What You Get
@@ -104,13 +106,13 @@ After you deposit:
 - Executes deposits via protocol-specific adapters
 - Begins earning yield immediately
 
-**Example Allocation:**
+### 4. Pilot Strategy Allocation Details
 
-```
-Your 10,000 USDC Deposit:
-- 60% → Aave (6,000 USDC)
-- 40% → Morpho 4,000 USDC)
-```
+The Pilot Strategy divides your deposit across 3 protocols:
+
+- **Morpho (45%):** Optimized lending through Morpho Blue
+- **Nusa (35%):** Stablecoin liquidity provision
+- **Beefy (20%):** Yield aggregation and optimization
 
 ## Important Notes
 
