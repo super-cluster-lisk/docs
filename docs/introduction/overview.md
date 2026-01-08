@@ -136,7 +136,7 @@ Hackathon MVP → Alpha Testing → Beta (Audited) → Production Launch
 | Protocol Type      | Liquid Saving Protocol |
 | Primary Asset      | USDC                   |
 | Network            | Lisk Network           |
-| Yield Sources      | Morpho, Nusa, Beefy    |
+| Yield Sources      | Morpho, Ionic          |
 | Token Model        | sToken / wsToken       |
 | Development Status | MVP                    |
 

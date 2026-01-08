@@ -11,8 +11,7 @@ The adapter layer connects SuperCluster to external lending markets so the core 
 ## Current and Target Integrations
 
 - Morpho Adapter
-- Nusa Adapter
-- Beefy Adapter
+- Ionic Adapter
 
 Adapters share the same responsibilities, regardless of the underlying protocol.
 

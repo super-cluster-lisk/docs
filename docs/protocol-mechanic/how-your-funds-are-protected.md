@@ -26,7 +26,7 @@ This transparency helps you understand current protections versus planned improv
 
 **Why it matters:** If one platform fails, others continue working normally.
 
-**Example:** Your $10,000 is split across Morpho, Nusa, and Beefy. If Morpho has issues affecting $3,300, your funds in Nusa and Beefy remain safe. Maximum loss is 33%, not everything.
+**Example:** Your $10,000 is split across Morpho and Ionic. If Morpho has issues affecting $5,000, your funds in Ionic remain safe. Maximum loss is 50%, not everything.
 
 **Status:** Active now ✓
 
@@ -36,8 +36,8 @@ This transparency helps you understand current protections versus planned improv
 
 **Planned rules:**
 
-- Maximum 35% in any single platform (Morpho, Nusa, or Beefy)
-- Minimum 3 different platforms used
+- Maximum 50% in any single platform (Morpho or Ionic)
+- Minimum 2 different platforms used
 - No over-concentration in one source
 
 **Why it matters:** No single platform failure can wipe out your entire deposit.
@@ -54,7 +54,7 @@ This transparency helps you understand current protections versus planned improv
 
 ### 4. Automatic Monitoring
 
-**What it means:** System watches for unusual activity like sudden rate changes, mass withdrawals from platforms, or unexpected balance drops across Morpho, Nusa, and Beefy.
+**What it means:** System watches for unusual activity like sudden rate changes, mass withdrawals from platforms, or unexpected balance drops across Morpho and Ionic.
 
 **Why it matters:** Problems are caught early and addressed before becoming serious.
 
@@ -62,7 +62,7 @@ This transparency helps you understand current protections versus planned improv
 
 ## The Risks You Should Know
 
-**Platform Failure** — A lending platform (Morpho, Nusa, or Beefy) could be exploited or fail  
+**Platform Failure** — A lending platform (Morpho or Ionic) could be exploited or fail  
 **Smart Contract Bugs** — SuperCluster's or partner protocols' code could have vulnerabilities  
 **Liquidity Constraints** — High withdrawal demand might cause delays  
 **Yield Volatility** — Returns can drop if borrowing demand falls
@@ -135,7 +135,7 @@ All communication happens through official channels with complete transparency a
 ## Security Roadmap
 
 **Current Phase:** Basic protections active, manual monitoring, internal security review  
-**Production Launch:** Professional audits of Morpho, Nusa, and Beefy integrations, automated alerts, 24/7 monitoring  
+**Production Launch:** Professional audits of Morpho and Ionic integrations, automated alerts, 24/7 monitoring  
 **Post-Launch:** Insurance fund, bug bounty program, continuous improvements
 
 ## Honest Assessment
@@ -145,7 +145,7 @@ All communication happens through official channels with complete transparency a
 - Multiple protection layers across three major protocols
 - Transparent about risks
 - Fair loss handling
-- Active monitoring of Morpho, Nusa, and Beefy
+- Active monitoring of Morpho and Ionic
 
 **What we cannot guarantee:**
 
@@ -154,12 +154,12 @@ All communication happens through official channels with complete transparency a
 - Constant yields
 - Perfect protection from all scenarios
 
-**The reality:** SuperCluster significantly reduces risk compared to managing funds yourself across multiple platforms, but DeFi always carries some risk. We minimize it through diversification across Morpho, Nusa, and Beefy, plus active management—we don't pretend it doesn't exist.
+**The reality:** SuperCluster significantly reduces risk compared to managing funds yourself across multiple platforms, but DeFi always carries some risk. We minimize it through diversification across Morpho and Ionic, plus active management—we don't pretend it doesn't exist.
 
 ## Common Questions
 
 **Can I lose all my money?**  
-Technically yes, but highly unlikely. Morpho, Nusa, and Beefy would all need to fail completely and simultaneously. Diversification makes this scenario extremely rare.
+Technically yes, but highly unlikely. Morpho and Ionic would both need to fail completely and simultaneously. Diversification makes this scenario extremely rare.
 
 **What's the most realistic risk?**  
 A single platform experiencing issues causing 5-10% loss, shared proportionally among all users.
@@ -179,7 +179,7 @@ No. The protocol design prevents team withdrawals—operations are controlled by
 ## Summary
 
 **Protections in place:**
-Platform isolation (Morpho, Nusa, Beefy) • Diversification • Reserve liquidity • Active monitoring • Fair loss handling
+Platform isolation (Morpho, Ionic) • Diversification • Reserve liquidity • Active monitoring • Fair loss handling
 
 **Our commitment:**
 Honest risk communication • Transparent operations • Fair treatment • Continuous security improvements
@@ -191,6 +191,6 @@ SuperCluster's approach: minimize risk through diversification across three prot
 
 ## Learn More
 
-- **Fund Management Strategy** — How allocation decisions protect your funds across Morpho, Nusa, and Beefy
+- **Fund Management Strategy** — How allocation decisions protect your funds across Morpho and Ionic
 - **Multiple Yield Sources** — Protocol diversification explained
 - **How SuperCluster Works** — Complete system overview

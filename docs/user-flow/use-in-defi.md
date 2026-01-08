@@ -21,8 +21,7 @@ One of SuperCluster's most powerful features is the **composability** of sUSDC a
 | DeFi Category        | sUSDC Compatible? | wsUSDC Compatible? | Recommended |
 | -------------------- | ----------------- | ------------------ | ----------- |
 | **Morpho Lending**   | Not supported     | Full               | wsUSDC      |
-| **Nusa Pools**       | May have issues   | Full               | wsUSDC      |
-| **Beefy Vaults**     | Complex           | Full               | wsUSDC      |
+| **Ionic Lending**    | May have issues   | Full               | wsUSDC      |
 | **Stablecoin Swaps** | OK                | OK                 | Either      |
 | **Simple Holding**   | Perfect           | OK                 | sUSDC       |
 | **NFT Purchases**    | OK                | OK                 | Either      |
@@ -102,31 +101,30 @@ Health Factor: Improved!
 - **Interest on borrowed amount**
 - **Smart contract risk** from both protocols
 
-## Use Case 2: Liquidity Provision (Nusa)
+## Use Case 2: Additional Lending (Ionic)
 
 ### Overview
 
-Provide liquidity in Nusa pools to earn trading fees while maintaining SuperCluster yield.
+Deposit wsUSDC in Ionic lending protocol to earn additional lending interest while maintaining SuperCluster yield.
 
-### Strategy: wsUSDC/USDC Pool
+### Strategy: wsUSDC as Collateral or Lending in Ionic
 
-**Optimal Pair:** wsUSDC + USDC (correlated assets, low impermanent loss)
+**Optimal Use:** Deposit wsUSDC directly to Ionic lending markets
 
 ```
-┌───────────────────────┐
-│   Nusa Pool           │
+┌──────────────────────┋
+│   Ionic Lending      │
 │                       │
-│  50% wsUSDC (5,000)   │
-│  50% USDC (5,000)     │
+│  Deposit wsUSDC      │
+│  (10,000)            │
 │                       │
-│  Your LP Position     │
-└───────────────────────┘
+│  Your Position       │
+└──────────────────────┘
          │
          v
-  Triple Yield Source:
+  Dual Yield Source:
   1. SuperCluster yield on wsUSDC
-  2. Trading fees from swaps
-  3. Potential LP incentives
+  2. Ionic lending APY
 ```
 
 ### Example Calculation
@@ -134,44 +132,41 @@ Provide liquidity in Nusa pools to earn trading fees while maintaining SuperClus
 **Initial Position:**
 
 ```
-Provide liquidity:
-- 4,762 wsUSDC (worth 5,000 USDC at 1.05 rate)
-- 5,000 USDC
-- Total value: 10,000 USDC
+Deposit wsUSDC:
+- 10,000 wsUSDC (worth 10,500 USDC at 1.05 rate)
+- Ionic lending APY: 4%
 ```
 
 **After 1 Year:**
 
 ```
 SuperCluster yield: 5% APY
-Trading fees: 2% APY
-LP incentives: 3% APY
+Ionic lending APY: 4% APY
 
-wsUSDC value: 4,762 × 1.05 = 5,000 → 5,250 USDC
-Trading fees earned: ~200 USDC
-LP incentives: ~300 USDC
+wsUSDC value: 10,000 × 1.05 = 10,500 USDC
+Ionic interest earned: ~420 USDC (4% of average balance)
 
-Total value: ~10,750 USDC
-Total APY: ~7.5%
+Total value: ~10,920 USDC
+Total APY: ~9.2%
 ```
 
-## Use Case 3: Yield Aggregator Strategies (Beefy)
+## Use Case 3: Borrowing Against wsUSDC (Ionic)
 
 ### Overview
 
-Deposit wsUSDC into Beefy vaults to stack multiple yield sources.
+Use wsUSDC as collateral on Ionic to borrow other assets without selling your position, while continuing to earn yield.
 
-### Example: Beefy Vault Strategy
+### Example: Borrowing Against wsUSDC on Ionic
 
 ```
-1. Deposit wsUSDC to Beefy Vault
-2. Beefy deploys wsUSDC to optimized strategies
+1. Deposit wsUSDC to Ionic as collateral
+2. Borrow: USDC or other assets
 3. You earn:
    - SuperCluster base yield (5%)
-   - Beefy strategy returns (3-5%)
-   - Compounded automatically
+   - Interest on wsUSDC collateral (potential)
+   - Strategic use of borrowed assets
 
-Total APY: 8-10%
+Net APY: 5-7% (depending on borrowed asset usage)
 ```
 
 ### Strategy Stacking
@@ -180,20 +175,19 @@ Total APY: 8-10%
 
 ```
 Base: SuperCluster yield (5%)
- + Beefy optimization (2%)
+ + Ionic lending APY (3%)
  + Morpho integration (1%)
 ------------------------
-Total: ~8% APY
+Total: ~9% APY
 ```
 
-**Aggressive Stack:**
+**Moderate Stack:**
 
 ```
 Base: SuperCluster yield (5%)
- + Beefy leverage (5%)
- + Nusa farming (3%)
+ + Ionic lending (4%)
 ------------------------
-Total: ~13% APY (higher risk)
+Total: ~9% APY (moderate risk)
 ```
 
 ### Risk Warning
@@ -304,10 +298,10 @@ Benefits:
 Advanced Strategy:
 - Deposit wsUSDC to Morpho
 - Borrow USDC
-- LP on Nusa with USDC portion
+- Deposit additional wsUSDC to Ionic
 - Earn multiple yields simultaneously
 
-Strategy: Generate income from base yield, lending, and LP fees
+Strategy: Generate income from base yield, lending, and protocol APYs
 ```
 
 ## Use Case 7: DAO Treasury Management
@@ -344,10 +338,9 @@ Risk: Inflation erodes value
 
 ```
 DAO Treasury Allocation:
-├─ 40% SuperCluster + Morpho lending
-├─ 30% wsUSDC/USDC on Nusa LP
-├─ 20% Beefy vault strategies
-└─ 10% Reserve (immediate liquidity)
+├─ 50% SuperCluster + Morpho lending
+├─ 30% SuperCluster + Ionic lending
+└─ 20% Reserve (immediate liquidity)
 
 Expected combined APY: 8-10%
 Annual revenue on 10M: 800-1000K USDC
@@ -360,9 +353,8 @@ Annual revenue on 10M: 800-1000K USDC
 | **Hold sUSDC**     | 5%       | 0%               | 5%        | Low        |
 | **Hold wsUSDC**    | 5%       | 0%               | 5%        | Low        |
 | **Morpho Lending** | 5%       | 1-2%             | 6-7%      | Medium     |
-| **Nusa LP**        | 5%       | 2-4% (fees)      | 7-9%      | Medium     |
-| **Beefy Vault**    | 5%       | 2-3%             | 7-8%      | Medium     |
+| **Ionic Lending**  | 5%       | 2-3%             | 7-8%      | Medium     |
 | **Multi-Protocol** | 5%       | 3-5%             | 8-10%     | High       |
-| **Advanced Stack** | 5%       | 5-7%             | 10-12%    | Very High  |
+| **Advanced Stack** | 5%       | 4-6%             | 9-11%     | Very High  |
 
 **Unlock DeFi's full potential!** Use your SuperCluster tokens to build advanced yield strategies while maintaining liquidity.

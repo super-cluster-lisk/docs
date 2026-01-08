@@ -62,16 +62,14 @@ flowchart TD
     B["SuperCluster Contract"]
     C["Mint sUSDC"]
     D["Pilot Strategy"]
-    E["Morpho (45%)"]
-    F["Nusa (35%)"]
-    G["Beefy (20%)"]
+    E["Morpho (50%)"]
+    F["Ionic (50%)"]
 
     A --> B
     B --> C
     B --> D
     D --> E
     D --> F
-    D --> G
 ```
 
 ## What You Get
@@ -110,9 +108,8 @@ After you deposit:
 
 The Pilot Strategy divides your deposit across 3 protocols:
 
-- **Morpho (45%):** Optimized lending through Morpho Blue
-- **Nusa (35%):** Stablecoin liquidity provision
-- **Beefy (20%):** Yield aggregation and optimization
+- **Morpho (50%):** Optimized lending through Morpho Blue
+- **Ionic (50%):** Decentralized lending platform with advanced risk management
 
 ## Important Notes
 

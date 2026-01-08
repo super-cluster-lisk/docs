@@ -27,18 +27,15 @@ Deposited USDC generates yield from multiple lending protocols:
 flowchart TD
    A["Deposit (10,000 USDC)"]
    B["Pilot Strategy Allocation"]
-   C["Morpho (45%)"]
-   D["Nusa (35%)"]
-   E["Beefy (20%)"]
-   F["Blended APY: +5.6%"]
+   C["Morpho (50%)"]
+   D["Ionic (50%)"]
+   F["Blended APY: +5.3%"]
 
    A --> B
    B --> C
    B --> D
-   B --> E
    C --> F
    D --> F
-   E --> F
 ```
 
 ### Yield Calculation
@@ -48,9 +45,9 @@ flowchart TD
 ```
 Blended APY = Σ (Allocation % × Protocol APY)
 
-(45% × 6%) + (35% × 5.5%) + (20% × 5%)
-= 2.7% + 1.925% + 1.0%
-= +5.6% APY
+(50% × 6%) + (50% × 5.6%)
+= 3.0% + 2.8%
+= +5.8% APY
 ```
 
 ## Rebase Mechanism Explained
@@ -74,41 +71,40 @@ Your Holdings:
 
 ```
 Adapters harvest yield from protocols:
-- Morpho:   +2,700 USDC (45%)
-- Nusa:     +1,925 USDC (35%)
-- Beefy:    +1,000 USDC (20%)
+- Morpho:   +3,000 USDC (50%)
+- Ionic:    +2,800 USDC (50%)
 -----------------------
-Total Yield: +5,625 USDC
+Total Yield: +5,800 USDC
 ```
 
 **Step 2: Exchange Rate Update**
 
 ```
-New Total Assets = 1,000,000 + 5,625 = 1,005,625 USDC
+New Total Assets = 1,000,000 + 5,800 = 1,005,800 USDC
 Total Supply = 1,000,000 sUSDC (unchanged)
 
-New Exchange Rate = 1,005,625 / 1,000,000 = 1.0056
+New Exchange Rate = 1,005,800 / 1,000,000 = 1.0058
 ```
 
 **Step 3: Balance Update**
 
 ```
 Your new balance = Shares × New Exchange Rate
-                 = 10,000 × 1.0056
-                 = 10,056 sUSDC
+                 = 10,000 × 1.0058
+                 = 10,058 sUSDC
 ```
 
 ### After Rebase
 
 ```
 Protocol State:
-- Total Assets: 1,005,625 USDC
+- Total Assets: 1,005,800 USDC
 - Total sUSDC Supply: 1,000,000 sUSDC (supply number unchanged)
-- Exchange Rate: 1.0056
+- Exchange Rate: 1.0058
 
 Your Holdings:
-- sUSDC Balance: 10,056 sUSDC (+56 sUSDC)
-- Value: 10,056 USDC (+56 USDC yield)
+- sUSDC Balance: 10,058 sUSDC (+58 sUSDC)
+- Value: 10,058 USDC (+58 USDC yield)
 ```
 
 **Process:**
@@ -264,11 +260,10 @@ The Pilot Strategy optimizes yield by rebalancing allocations:
 
 Protocol APY:
 
-- Morpho: 6.0% (45% allocation)
-- Nusa: 5.5% (35% allocation)
-- Beefy: 5.0% (20% allocation)
+- Morpho: 6.0% (50% allocation)
+- Ionic: 5.6% (50% allocation)
 
-Blended APY: 5.6%
+Blended APY: 5.8%
 
 ```
 
@@ -278,11 +273,10 @@ Blended APY: 5.6%
 
 New Allocation:
 
-- Morpho: 6.5% (50% allocation) ← APY Increased!
-- Nusa: 5.5% (30% allocation)
-- Beefy: 5.0% (20% allocation)
+- Morpho: 6.5% (55% allocation) ← APY Increased!
+- Ionic: 5.6% (45% allocation)
 
-New Blended APY: 5.95%
+New Blended APY: 6.07%
 
 ```
 

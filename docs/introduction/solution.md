@@ -40,11 +40,10 @@ As a result, users earn yield without needing to manage market cycles or price m
 
 **Initial Yield Sources:**
 
-| Protocol | Category           | Risk Profile |
-| -------- | ------------------ | ------------ |
-| Morpho   | Optimized lending  | Low–Medium   |
-| Nusa     | Stablecoin lending | Low–Medium   |
-| Beefy    | Yield optimization | Medium       |
+| Protocol | Category              | Risk Profile |
+| -------- | --------------------- | ------------ |
+| Morpho   | Optimized lending     | Low–Medium   |
+| Ionic    | Decentralized lending | Low–Medium   |
 
 Allocation decisions are handled by the **Pilot Strategy**, which balances yield, liquidity, and risk.
 
