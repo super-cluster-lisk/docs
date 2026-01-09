@@ -6,9 +6,15 @@ pagination_next: introduction/problem
 
 ## What is SuperCluster?
 
-SuperCluster is a DeFi Liquid Saving Protocol that brings liquid staking mechanics to stablecoin-based savings. Built on Lisk Network, SuperCluster enables users to deposit USDC and earn yield from established lending protocols while maintaining liquidity through composable receipt tokens.
+SuperCluster is a **DeFi Liquid Saving Protocol** that brings liquid staking mechanics to stablecoin-based savings. Built on **Lisk Network**, SuperCluster enables users to deposit USDC and earn yield from established lending protocols while maintaining liquidity through composable receipt tokens.
 
-Instead of staking volatile assets, SuperCluster focuses exclusively on stablecoins, allowing users to generate yield without exposure to market price fluctuations.
+**Think of it as "Lido for stablecoins"** — but instead of staking volatile assets like ETH, SuperCluster focuses exclusively on stablecoins, allowing users to generate yield without exposure to market price fluctuations.
+
+## Mission Statement
+
+> *"Transform stablecoins into productive, liquid assets that generate sustainable yield without market timing risk or loss of ownership rights."*
+
+---
 
 ## Core Concept
 
@@ -107,13 +113,25 @@ The protocol is designed with the following principles in mind:
 
 ## Network and Assets
 
-- **Network:** Lisk Network
-- **Primary Asset:** USDC
+- **Network:** Lisk Network  
+- **Primary Asset:** USDC  
+- **Integrated Protocols:** Morpho, Ionic
 
 **Receipt Tokens:**
-
-- **sUSDC:** Rebasing, yield-bearing token
+- **sUSDC:** Rebasing, yield-bearing token  
 - **wsUSDC:** Wrapped, non-rebasing token
+
+## Why Lisk Network?
+
+Lisk Network provides optimal infrastructure for SuperCluster's liquid saving protocol:
+
+- **Low Transaction Costs** — Enables frequent rebalancing and daily rebasing without high fees
+- **High Throughput** — Supports large-scale capital operations efficiently
+- **Growing DeFi Ecosystem** — Access to expanding lending protocols on Lisk
+- **Ethereum-Grade Security** — Built on OP Stack for robust security guarantees
+- **Perfect for Capital-Intensive DeFi** — Infrastructure designed specifically for financial applications
+
+---
 
 ## Current Status
 
@@ -131,16 +149,19 @@ Hackathon MVP → Alpha Testing → Beta (Audited) → Production Launch
 
 ## Summary
 
-| Item               | Description            |
-| ------------------ | ---------------------- |
-| Protocol Type      | Liquid Saving Protocol |
-| Primary Asset      | USDC                   |
-| Network            | Lisk Network           |
-| Yield Sources      | Morpho, Ionic          |
-| Token Model        | sToken / wsToken       |
-| Development Status | MVP                    |
+| Item               | Description                    |
+|--------------------|--------------------------------|
+| Protocol Type      | Liquid Saving Protocol         |
+| Primary Asset      | USDC                           |
+| Network            | Lisk Network                   |
+| Yield Sources      | Morpho, Ionic                  |
+| Token Model        | sToken / wsToken               |
+| Development Status | Hackathon MVP                  |
+| Tech Stack         | Solidity, TypeScript, Foundry, NextJS, Privy |
 
-_Yield sources may evolve during MVP and early deployments._
+*This is the hackathon scope for Lisk Network. Additional yield sources and features will be added in production.*
+
+---
 
 ## Vision
 

@@ -1,6 +1,14 @@
 # Who Is This For?
 
-SuperCluster is designed as a general-purpose liquid saving primitive for the DeFi ecosystem. It serves users and protocols that require stable principal, on-chain yield, liquidity, and composability without introducing market exposure.
+SuperCluster is designed as a **general-purpose liquid saving primitive** for the DeFi ecosystem. 
+
+It serves users and protocols that require:
+- ✅ Stable principal (no market volatility)
+- ✅ On-chain yield generation
+- ✅ Full liquidity (no lock-ups)
+- ✅ Composability across DeFi
+
+If you hold stablecoins and want them to work for you without sacrificing access or taking on market risk, **SuperCluster is built for you.**
 
 ## Target User Segments
 
@@ -9,58 +17,77 @@ SuperCluster is designed as a general-purpose liquid saving primitive for the De
 **Profile**
 
 - Hold stablecoins such as USDC
-- Prefer capital preservation
+- Prefer capital preservation over high-risk speculation
 - Seek passive, low-complexity yield
 - Require immediate access to funds
 
-**Problems**
+**Problems They Face**
 
-- Idle stablecoins generate no yield
-- Volatile staking introduces unacceptable risk
-- Vault-based products lock funds
-- Manual yield strategies increase complexity
+- 💤 Idle stablecoins in wallets generate no yield
+- ⚠️ Volatile staking (ETH, BTC) introduces unacceptable market risk
+- 🔒 Vault-based products lock funds with no liquidity
+- 🤔 Manual yield strategies are too complex and time-consuming
 
-**Value Proposition**
+**What SuperCluster Offers**
 
-- Stablecoin-only exposure
-- Automatic yield accrual
-- No protocol-level lock-ups
-- Liquid receipt tokens usable across DeFi
+- ✅ Stablecoin-only exposure — No market volatility
+- ✅ Automatic yield accrual — Passive income, no management needed
+- ✅ No protocol-level lock-ups — Access liquidity anytime
+- ✅ Liquid receipt tokens — Use sUSDC/wsUSDC across DeFi
+
+**Concrete Example**
+
+> **Sarah**, a retail investor with **$10,000 USDC**:
+> - Deposits into SuperCluster
+> - Receives 10,000 sUSDC
+> - Earns ~5-7% APY from Morpho and Ionic lending
+> - After 1 year: ~10,500 sUSDC (automatically rebased)
+> - Can swap on DEX anytime or use as collateral in other protocols
 
 **Primary Use Cases**
 
-- Long-term stablecoin savings
-- Short-to-medium term capital parking
-- Yield generation without active management
+- Long-term stablecoin savings ("crypto savings account")
+- Short-to-medium term capital parking between investments
+- Passive yield generation without active management
 
 ### 2. DeFi Power Users
 
 **Profile**
 
 - Actively use multiple DeFi protocols
-- Optimize capital efficiency
+- Optimize capital efficiency across platforms
 - Require composability and fast reallocation
 - Comfortable with advanced strategies
 
-**Problems**
+**Problems They Face**
 
-- Idle capital between strategy rotations
-- Non-productive stable collateral
-- Fragmented yield management
-- Manual protocol interactions
+- 💸 Idle capital between strategy rotations loses opportunity
+- 📉 Non-productive stable collateral (regular USDC earns nothing)
+- 🔀 Fragmented yield management across multiple protocols
+- ⏱️ Manual protocol interactions waste time
 
-**Value Proposition**
+**What SuperCluster Offers**
 
-- Yield-bearing stable assets
-- Dual-token system for rebasing and non-rebasing needs
-- Immediate liquidity via tokenization
-- Strategy abstraction through Pilot Strategy
+- ✅ Yield-bearing stable assets — sUSDC/wsUSDC continue earning yield everywhere
+- ✅ Dual-token system — Choose rebasing (sToken) or non-rebasing (wsToken)
+- ✅ Immediate liquidity — Swap on DEX or transfer instantly
+- ✅ Strategy abstraction — Pilot Strategy handles optimization automatically
+
+**Concrete Example**
+
+> **Alex**, a DeFi power user with **$50,000 USDC**:
+> - Deposits into SuperCluster → receives 50,000 sUSDC
+> - Wraps to wsUSDC for use as collateral on Aave
+> - Borrows against wsUSDC to leverage into other positions
+> - **Still earning yield on original deposit** while using it as collateral
+> - Can unwrap and exit anytime for other opportunities
 
 **Primary Use Cases**
 
-- Yield layering (collateral + lending + LP)
-- Capital staging between strategies
+- Yield layering (earn on collateral while borrowing)
+- Capital staging between DeFi strategies
 - Cross-protocol composable positions
+- LP provision with yield-bearing tokens (wsUSDC/USDC pools)
 
 ### 3. Protocol Builders and Developers
 
@@ -95,30 +122,40 @@ SuperCluster is designed as a general-purpose liquid saving primitive for the De
 
 **Profile**
 
-- Manage large stablecoin treasuries
+- Manage large stablecoin treasuries (often $1M+)
 - Require transparency and liquidity
 - Operate under governance constraints
 - Optimize long-term sustainability
 
-**Problems**
+**Problems They Face**
 
-- Idle treasury capital
-- Locked yield strategies reduce flexibility
-- Need rapid access for operations
-- Single-protocol exposure risk
+- 💰 Idle treasury capital earns nothing (opportunity cost)
+- 🔒 Locked yield strategies reduce operational flexibility
+- ⚡ Need rapid access for grants, operations, and partnerships
+- ⚠️ Single-protocol exposure creates concentrated risk
 
-**Value Proposition**
+**What SuperCluster Offers**
 
-- On-chain, auditable yield
-- Liquid treasury positions
-- Diversified exposure across lending markets
-- Governance-friendly deployment
+- ✅ On-chain, auditable yield — All transactions visible and verifiable
+- ✅ Liquid treasury positions — Access funds anytime without breaking strategies
+- ✅ Diversified exposure — Funds allocated across Morpho and Ionic
+- ✅ Governance-friendly — Compatible with multi-sig and DAO structures
+
+**Concrete Example**
+
+> **GreenDAO** with **$5M USDC treasury**:
+> - Deposits $3M into SuperCluster (keeping $2M for immediate operations)
+> - Receives 3M sUSDC earning ~5-7% APY
+> - After 1 year: ~$3.18M in value
+> - When grant funding needed: Swap sUSDC to USDC on DEX instantly
+> - **No governance vote required for emergency liquidity access**
 
 **Primary Use Cases**
 
-- Treasury optimization
-- Capital preservation between investments
-- Operational liquidity with yield
+- Treasury yield optimization without lock-ups
+- Capital preservation between major investments
+- Operational liquidity with passive income
+- Diversified risk management across protocols
 
 ### 5. Liquidity Providers
 
@@ -178,17 +215,49 @@ SuperCluster is designed as a general-purpose liquid saving primitive for the De
 
 ## User Journey Overview
 
-**Individual User**
+### **Individual User Journey**
 
-Acquire USDC → Deposit → Receive sToken → Yield accrues → Withdraw or swap anytime
+```
+Acquire USDC → Deposit to SuperCluster → Receive sUSDC → 
+Yield auto-accrues (rebase) → Withdraw or swap anytime
+```
 
-**DeFi Native User**
+**Example:** Hold sUSDC in wallet, watch balance grow daily
 
-Deposit → sToken → Wrap to wsToken → Use across protocols → Unwrap or exit
+---
 
-**Protocol Integration**
+### **DeFi Power User Journey**
 
-Integrate wsToken → Accept as collateral or balance → Users earn yield by default
+```
+Deposit USDC → Receive sUSDC → Wrap to wsUSDC → 
+Use across DeFi protocols → Still earning yield → 
+Unwrap or exit when needed
+```
+
+**Example:** Use wsUSDC as collateral while earning yield on deposit
+
+---
+
+### **DAO Treasury Journey**
+
+```
+Governance vote → Deposit treasury USDC → Receive sUSDC → 
+Earn passive yield → Access liquidity via DEX when needed
+```
+
+**Example:** Earn on idle treasury without locking operational funds
+
+---
+
+### **Protocol Integration Journey**
+
+```
+Integrate wsUSDC standard → Accept as collateral or balance → 
+Users deposit and earn yield automatically → 
+Protocol benefits from yield-bearing assets
+```
+
+**Example:** Lending protocol accepts wsUSDC as collateral (more valuable than regular USDC)
 
 ## User Priorities by Segment
 
@@ -203,21 +272,41 @@ Integrate wsToken → Accept as collateral or balance → Users earn yield by de
 
 ## Not Intended For
 
-SuperCluster may not be suitable for users who:
+SuperCluster may **not be suitable** for users who:
 
-- Seek maximum APY regardless of risk
-- Want exposure to volatile assets
-- Require fixed or guaranteed interest rates
-- Intend to hold funds for extremely short durations
-- Are unwilling to interact with smart contracts
+- ❌ Seek maximum APY regardless of risk (yield chasers)
+- ❌ Want exposure to volatile assets (ETH, BTC staking)
+- ❌ Require fixed or guaranteed interest rates (TradFi expectations)
+- ❌ Intend to hold funds for extremely short durations (<1 day)
+- ❌ Are unwilling to interact with smart contracts
+- ❌ Cannot tolerate any smart contract risk
+
+**Important:** SuperCluster is for users who prioritize **principal stability, liquidity, and sustainable yield** over maximum returns.
 
 ## Summary
 
-SuperCluster is designed for users and protocols that require:
+SuperCluster is designed for **anyone who holds stablecoins and wants them to work harder** without sacrificing liquidity or taking on market risk.
 
-- Stable principal
-- On-chain yield
-- Full liquidity
-- Cross-protocol composability
+### Core Requirements Met
 
-It functions as shared infrastructure, enabling both individuals and protocols to treat stablecoins as productive, liquid, and programmable assets.
+✅ **Stable principal** — Stablecoin-only, no market volatility  
+✅ **On-chain yield** — Real returns from Morpho and Ionic lending  
+✅ **Full liquidity** — Instant access via liquid tokens  
+✅ **Cross-protocol composability** — Use anywhere in DeFi  
+
+### Who Benefits Most
+
+| User Type          | Primary Benefit                          | Typical Amount      |
+|-------------------|------------------------------------------|---------------------|
+| Retail Users      | Passive yield without complexity         | $1K - $100K         |
+| DeFi Power Users  | Capital efficiency + composability       | $10K - $1M          |
+| Protocol Builders | Yield-bearing infrastructure             | Integration-focused |
+| DAO Treasuries    | Liquid yield on idle capital            | $100K - $100M       |
+| Liquidity Providers | Enhanced LP returns                    | $10K - $10M         |
+| Institutions      | Conservative, auditable yield           | $1M+                |
+
+### The Big Picture
+
+SuperCluster functions as **shared DeFi infrastructure**, enabling both individuals and protocols to treat stablecoins as productive, liquid, and programmable assets.
+
+**It's not just a product — it's a new primitive for stablecoin savings built on Lisk Network.**
