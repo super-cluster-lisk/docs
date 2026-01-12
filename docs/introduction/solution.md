@@ -8,10 +8,10 @@ SuperCluster introduces a new DeFi primitive: a **Liquid Saving Protocol**.
 
 By focusing exclusively on stable assets and battle-tested lending protocols, SuperCluster provides:
 
-- ✅ **Principal stability** — No volatile asset exposure
-- ✅ **Sustainable yield** — Real returns from lending activity
-- ✅ **Full liquidity** — Transferable, composable receipt tokens
-- ✅ **Native composability** — Use across DeFi without restrictions
+- **Principal stability** — No volatile asset exposure
+- **Sustainable yield** — Real returns from lending activity
+- **Full liquidity** — Transferable, composable receipt tokens
+- **Native composability** — Use across DeFi without restrictions
 
 **SuperCluster eliminates the fundamental trade-off** between yield, liquidity, and composability.
 
@@ -286,12 +286,12 @@ SuperCluster is built on **Lisk Network** for the following strategic reasons:
 
 ### Phase 1: Hackathon MVP (Current)
 
-- ✅ Core contracts (Vault, sToken, wsToken)
-- ✅ Pilot Strategy with basic allocation logic
-- ✅ Morpho and Ionic adapters
-- ✅ Event-based rebase mechanism
-- ✅ Frontend interface (NextJS + Privy)
-- 🔄 Documentation and demo
+- Core contracts (Vault, sToken, wsToken)
+- Pilot Strategy with basic allocation logic
+- Morpho and Ionic adapters
+- Event-based rebase mechanism
+- Frontend interface (NextJS + Privy)
+- Documentation and demo
 
 **Scope:** Lisk Network testnet deployment for hackathon submission
 
@@ -332,11 +332,11 @@ SuperCluster addresses the core limitations of existing DeFi yield solutions by 
 
 **Key Outcomes:**
 
-✅ **Stable principal** — Stablecoin-only strategy eliminates market volatility  
-✅ **Full liquidity** — Transferable, composable receipt tokens (sToken/wsToken)  
-✅ **Sustainable yield** — Real returns from Morpho and Ionic lending activity  
-✅ **Native composability** — Use across DeFi without restrictions  
-✅ **Built on Lisk** — Low-cost infrastructure for optimal capital efficiency  
+**Stable principal** — Stablecoin-only strategy eliminates market volatility  
+**Full liquidity** — Transferable, composable receipt tokens (sToken/wsToken)  
+**Sustainable yield** — Real returns from Morpho and Ionic lending activity  
+**Native composability** — Use across DeFi without restrictions  
+**Built on Lisk** — Low-cost infrastructure for optimal capital efficiency  
 
 **SuperCluster = "Lido for Stablecoins"**
 

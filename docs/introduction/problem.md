@@ -60,25 +60,25 @@ Stablecoins remove price volatility but introduce a different set of constraints
 
 #### Idle Stablecoins
 
-- Stable principal ✅
-- No yield ❌
-- Purchasing power erosion over time ❌
-- Full liquidity ✅
+- Stable principal (Yes)
+- No yield (No)
+- Purchasing power erosion over time (No)
+- Full liquidity (Yes)
 
 #### Direct Lending Protocols
 
-- Stable principal ✅
-- Yield generation ✅
-- Limited liquidity of deposit positions ❌
-- Single protocol exposure (concentrated risk) ⚠️
+- Stable principal (Yes)
+- Yield generation (Yes)
+- Limited liquidity of deposit positions (No)
+- Single protocol exposure (concentrated risk) (Warning)
 
 #### Yield Aggregators (Vaults)
 
-- Automated strategy allocation ✅
-- Stable principal ✅
-- Vault-based positions with limited composability ❌
-- Funds effectively locked at the strategy level ❌
-- No transferable receipt tokens ❌
+- Automated strategy allocation (Yes)
+- Stable principal (Yes)
+- Vault-based positions with limited composability (No)
+- Funds effectively locked at the strategy level (No)
+- No transferable receipt tokens (No)
 
 ### The Fundamental Trade-Off
 
@@ -96,10 +96,10 @@ Most yield-generating stablecoin solutions lock deposits inside vaults or protoc
 
 ### What Users and Protocols Actually Need
 
-1. ✅ **Stable principal** — No exposure to volatile asset prices
-2. ✅ **Passive yield generation** — Automatic returns without active management
-3. ✅ **Immediate liquidity** — Access funds anytime without lock-ups
-4. ✅ **Interoperability across DeFi** — Use yield-bearing tokens as collateral, in liquidity pools, etc.
+1. **Stable principal** — No exposure to volatile asset prices
+2. **Passive yield generation** — Automatic returns without active management
+3. **Immediate liquidity** — Access funds anytime without lock-ups
+4. **Interoperability across DeFi** — Use yield-bearing tokens as collateral, in liquidity pools, etc.
 
 ### Current State of DeFi Savings
 

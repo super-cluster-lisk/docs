@@ -3,10 +3,10 @@
 SuperCluster is designed as a **general-purpose liquid saving primitive** for the DeFi ecosystem. 
 
 It serves users and protocols that require:
-- ✅ Stable principal (no market volatility)
-- ✅ On-chain yield generation
-- ✅ Full liquidity (no lock-ups)
-- ✅ Composability across DeFi
+- Stable principal (no market volatility)
+- On-chain yield generation
+- Full liquidity (no lock-ups)
+- Composability across DeFi
 
 If you hold stablecoins and want them to work for you without sacrificing access or taking on market risk, **SuperCluster is built for you.**
 
@@ -23,17 +23,17 @@ If you hold stablecoins and want them to work for you without sacrificing access
 
 **Problems They Face**
 
-- 💤 Idle stablecoins in wallets generate no yield
-- ⚠️ Volatile staking (ETH, BTC) introduces unacceptable market risk
-- 🔒 Vault-based products lock funds with no liquidity
-- 🤔 Manual yield strategies are too complex and time-consuming
+- Idle stablecoins in wallets generate no yield
+- Volatile staking (ETH, BTC) introduces unacceptable market risk
+- Vault-based products lock funds with no liquidity
+- Manual yield strategies are too complex and time-consuming
 
 **What SuperCluster Offers**
 
-- ✅ Stablecoin-only exposure — No market volatility
-- ✅ Automatic yield accrual — Passive income, no management needed
-- ✅ No protocol-level lock-ups — Access liquidity anytime
-- ✅ Liquid receipt tokens — Use sUSDC/wsUSDC across DeFi
+- Stablecoin-only exposure — No market volatility
+- Automatic yield accrual — Passive income, no management needed
+- No protocol-level lock-ups — Access liquidity anytime
+- Liquid receipt tokens — Use sUSDC/wsUSDC across DeFi
 
 **Concrete Example**
 
@@ -61,17 +61,17 @@ If you hold stablecoins and want them to work for you without sacrificing access
 
 **Problems They Face**
 
-- 💸 Idle capital between strategy rotations loses opportunity
-- 📉 Non-productive stable collateral (regular USDC earns nothing)
-- 🔀 Fragmented yield management across multiple protocols
-- ⏱️ Manual protocol interactions waste time
+- Idle capital between strategy rotations loses opportunity
+- Non-productive stable collateral (regular USDC earns nothing)
+- Fragmented yield management across multiple protocols
+- Manual protocol interactions waste time
 
 **What SuperCluster Offers**
 
-- ✅ Yield-bearing stable assets — sUSDC/wsUSDC continue earning yield everywhere
-- ✅ Dual-token system — Choose rebasing (sToken) or non-rebasing (wsToken)
-- ✅ Immediate liquidity — Swap on DEX or transfer instantly
-- ✅ Strategy abstraction — Pilot Strategy handles optimization automatically
+- Yield-bearing stable assets — sUSDC/wsUSDC continue earning yield everywhere
+- Dual-token system — Choose rebasing (sToken) or non-rebasing (wsToken)
+- Immediate liquidity — Swap on DEX or transfer instantly
+- Strategy abstraction — Pilot Strategy handles optimization automatically
 
 **Concrete Example**
 
@@ -129,17 +129,17 @@ If you hold stablecoins and want them to work for you without sacrificing access
 
 **Problems They Face**
 
-- 💰 Idle treasury capital earns nothing (opportunity cost)
-- 🔒 Locked yield strategies reduce operational flexibility
-- ⚡ Need rapid access for grants, operations, and partnerships
-- ⚠️ Single-protocol exposure creates concentrated risk
+- Idle treasury capital earns nothing (opportunity cost)
+- Locked yield strategies reduce operational flexibility
+- Need rapid access for grants, operations, and partnerships
+- Single-protocol exposure creates concentrated risk
 
 **What SuperCluster Offers**
 
-- ✅ On-chain, auditable yield — All transactions visible and verifiable
-- ✅ Liquid treasury positions — Access funds anytime without breaking strategies
-- ✅ Diversified exposure — Funds allocated across Morpho and Ionic
-- ✅ Governance-friendly — Compatible with multi-sig and DAO structures
+- On-chain, auditable yield — All transactions visible and verifiable
+- Liquid treasury positions — Access funds anytime without breaking strategies
+- Diversified exposure — Funds allocated across Morpho and Ionic
+- Governance-friendly — Compatible with multi-sig and DAO structures
 
 **Concrete Example**
 
@@ -274,12 +274,12 @@ Protocol benefits from yield-bearing assets
 
 SuperCluster may **not be suitable** for users who:
 
-- ❌ Seek maximum APY regardless of risk (yield chasers)
-- ❌ Want exposure to volatile assets (ETH, BTC staking)
-- ❌ Require fixed or guaranteed interest rates (TradFi expectations)
-- ❌ Intend to hold funds for extremely short durations (<1 day)
-- ❌ Are unwilling to interact with smart contracts
-- ❌ Cannot tolerate any smart contract risk
+- Seek maximum APY regardless of risk (yield chasers)
+- Want exposure to volatile assets (ETH, BTC staking)
+- Require fixed or guaranteed interest rates (TradFi expectations)
+- Intend to hold funds for extremely short durations (less than 1 day)
+- Are unwilling to interact with smart contracts
+- Cannot tolerate any smart contract risk
 
 **Important:** SuperCluster is for users who prioritize **principal stability, liquidity, and sustainable yield** over maximum returns.
 
@@ -289,10 +289,10 @@ SuperCluster is designed for **anyone who holds stablecoins and wants them to wo
 
 ### Core Requirements Met
 
-✅ **Stable principal** — Stablecoin-only, no market volatility  
-✅ **On-chain yield** — Real returns from Morpho and Ionic lending  
-✅ **Full liquidity** — Instant access via liquid tokens  
-✅ **Cross-protocol composability** — Use anywhere in DeFi  
+**Stable principal** — Stablecoin-only, no market volatility  
+**On-chain yield** — Real returns from Morpho and Ionic lending  
+**Full liquidity** — Instant access via liquid tokens  
+**Cross-protocol composability** — Use anywhere in DeFi  
 
 ### Who Benefits Most
 
